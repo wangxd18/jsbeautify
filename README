@@ -1,3 +1,5 @@
+Forked by wangxd18
+
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=2727
 
 a plugin to format your javascript souce code
@@ -7,7 +9,7 @@ http://jsbeautifier.org/
 
 I just translated it into vimscript, it works at a low performance:)
 
-usage:
-  <leader>ff
+usage(modified by wangxd18):
+  <leader>jf
 or 
   bind the g:Jsbeautify() function to any short key you like
