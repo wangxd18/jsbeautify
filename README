@@ -13,3 +13,5 @@ usage(modified by wangxd18):
   <leader>jf
 or 
   bind the g:Jsbeautify() function to any short key you like
+
+添加了修复js代码后替换<tab>为4个空格
