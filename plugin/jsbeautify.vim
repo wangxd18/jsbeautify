@@ -621,4 +621,4 @@ function! g:Jsbeautify()
 endfunction
 
 "nnoremap <silent> <leader>jf :call g:Jsbeautify()<cr>
-nnoremap <silent> <leader>jf :call g:Jsbeautify()<cr>:%s /\t/    /g<cr>
+nnoremap <silent> <leader>jf :call g:Jsbeautify()<cr>:%s /\t/    /<cr>:%s /\t/    /g<cr>
