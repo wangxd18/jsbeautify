@@ -292,7 +292,7 @@ function! g:Jsbeautify()
 
 	"let a:options = {}
 	let s:opt_indent_size = 1
-	let s:opt_indent_char = "\t"
+	let s:opt_indent_char = "  "
 	let s:opt_preserve_newlines = 1
 	let s:opt_indent_level = 0
 
@@ -620,5 +620,4 @@ function! g:Jsbeautify()
 	:put!0
 endfunction
 
-"nnoremap <silent> <leader>jf :call g:Jsbeautify()<cr>
-nnoremap <silent> <leader>jf :call g:Jsbeautify()<cr>:%s /\t/    /<cr>:%s /\t/    /g<cr>
+nnoremap <silent> <leader>jf :call g:Jsbeautify()<cr>
